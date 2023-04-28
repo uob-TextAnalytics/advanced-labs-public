@@ -11,9 +11,11 @@ The environment is set up in the same way as for Introduction to Data Analytics.
 
 You will need the following additional packages, which you can install with Conda:
 
-pytorch=1.9.0
-scipy=1.8.0
-transformers=2.1.1
+pytorch=1.10.2
+scipy
+transformers
+
+You should specify '-c pytorch' to install Pytorch and '-c huggingface' to get the current version of transformers.
 
 ### Setting Up a New Environment
 
